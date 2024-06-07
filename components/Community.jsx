@@ -1,6 +1,6 @@
 import { HiEye } from "react-icons/hi";
 import Card from "../components/Card";
-import SearchBar from "../components/SearchBar";
+import Searchbar from "../components/Searchbar"
 import Tags from "../components/Tags";
 import { RxPencil2 } from "react-icons/rx";
 
@@ -58,9 +58,9 @@ export default function Community() {
             </div>
             <div className=" pl-4 border-l-2 border-grey-500 pt-10 mt-12">
                 <div className="bg-gradient-to-r from-yellow-300 to-yellow-100 w-full aspect-video flex gap-6">
-                    {/* <StreakBigIcon />                
+                    <StreakBigIcon />                
                     <StreakSmallIcon />                
-                    <StreakIcon />                 */}
+                    {/* <StreakIcon />                 */}
                     <div className="flex flex-col gap-4">
                         <p className="text-lg font-bold">Achieve Your Goals with Keep The Streak Alive</p>
                         <div className="block">
@@ -69,7 +69,7 @@ export default function Community() {
                     </div>
 
                 </div>
-                <SearchBar />
+                <Searchbar />
                 <Tags />
             </div>
         </main>
