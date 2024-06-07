@@ -2,6 +2,7 @@ import { HiEye } from "react-icons/hi";
 import Card from "../components/Card";
 import Searchbar from "../components/Searchbar"
 import Tags from "../components/Tags";
+import {StreakBigIcon, StreakSmallIcon} from "../utilities/streakIcon";
 import { RxPencil2 } from "react-icons/rx";
 
 export default function Community() {
