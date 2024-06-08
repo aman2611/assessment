@@ -6,7 +6,6 @@ import { icon3 } from "../utilities/sidebarIcons";
 import { icon4 } from "../utilities/sidebarIcons";
 import { icon5 } from "../utilities/sidebarIcons";
 import { icon6 } from "../utilities/sidebarIcons";
-import { SmallestStreakIcon } from "../utilities/streakIcon";
 
 
 export default function Sidebar() {

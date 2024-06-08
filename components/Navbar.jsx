@@ -1,6 +1,6 @@
 import { MdPermPhoneMsg } from "react-icons/md";
 import { FaChevronDown } from "react-icons/fa";
-import { SmallestStreakIcon } from "../utilities/streakIcon";
+import SmallStreakIcon from "../utilities/SmallStreakIcon";
 
 export default function Navbar() {
   return (
@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="flex items-center p-[0.6px] bg-gradient-to-r from-[#FC8026] to-[#014EE6] rounded-full ">
           <div className="flex items-center p-2 bg-white rounded-full gap-4">
             <div>
-              <SmallestStreakIcon />
+              <SmallStreakIcon/> 
             </div>
             <span>2</span>
           </div>

@@ -2,13 +2,13 @@ import { HiEye } from "react-icons/hi";
 import Card from "../components/Card";
 import Searchbar from "../components/Searchbar"
 import Tags from "../components/Tags";
-import {StreakBigIcon, StreakSmallIcon} from "../utilities/streakIcon";
+import StreakBigIcon from "../utilities/StreakBigIcon";
 import { RxPencil2 } from "react-icons/rx";
 
 export default function Community() {
     return (
         <main className="flex gap-8 p-4 mr-4 ml-20 ">
-            <div className="flex gap-8 p-4 ">
+            <div className="flex gap-8 p-4 w-[200%]">
                 <div className="flex flex-col mt-16">
                     <h3 className="text-xl font-bold mb-8 px-8">Community</h3>
                     <div className="flex justify-between px-8">
@@ -57,11 +57,11 @@ export default function Community() {
                     </div>
                 </div>
             </div>
-            <div className=" pl-4 border-l-2 border-grey-500 pt-10 mt-12">
-                <div className="bg-gradient-to-r from-yellow-300 to-yellow-100 w-full aspect-video flex gap-6">
-                    <StreakBigIcon />                
-                    <StreakSmallIcon />                
-                    {/* <StreakIcon />                 */}
+            <div className=" pl-4 border-left-2 border-grey-500 pt-10 mt-12">
+                <div className="bg-gradient-to-r from-yellow-300 to-yellow-100 w-full flex rounded-xl items-center">
+                    <div className="w-40">
+                        <StreakBigIcon />                
+                    </div>
                     <div className="flex flex-col gap-4">
                         <p className="text-lg font-bold">Achieve Your Goals with Keep The Streak Alive</p>
                         <div className="block">
@@ -70,8 +70,11 @@ export default function Community() {
                     </div>
 
                 </div>
+                <div className="flex flex-col gap-4 p-4 my-4 border-2 border-gray-500 rounded-xl">
+                    <h3 className="text-xl font-medium">Tags</h3>
                 <Searchbar />
                 <Tags />
+                </div>
             </div>
         </main>
     );
