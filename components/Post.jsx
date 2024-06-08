@@ -8,15 +8,16 @@ import { LuArrowUpSquare } from "react-icons/lu";
 import { LuArrowDownSquare } from "react-icons/lu";
 import { IoBookmarkOutline } from "react-icons/io5";
 import Comments from "../components/Comments";
+import Link from "next/link";
 
 
 const Post = () => {
   return (
     <main className="flex flex-col gap-8 p-40 mr-4 ml-20 ">
-      <div className="flex gap-4 mb-4 items-center">
+      <Link className="flex gap-4 mb-4 items-center hover:underline" href='/'>
         <FaAngleLeft />
         <p>Back</p>
-      </div>
+      </Link>
       <div className="flex gap-4 items-center">
         <div className="bg-orange-500 rounded-full p-2 w-12 h-12 relative">
           <span className="text-white text-2xl font-bold absolute top-2 left-3.5">

@@ -4,7 +4,7 @@ import SmallStreakIcon from "../utilities/SmallStreakIcon";
 
 export default function Navbar() {
   return (
-    <nav className="fixed left-0 top-0 bg-white p-4 text-black w-[92vw] flex justify-between items-center ml-[123px] pb-6 pr-11 border-[1px] border-bottom-gray-500">
+    <nav className="fixed left-0 top-0 bg-white p-4 text-black w-[92vw] flex justify-between items-center ml-[123px] pb-6 pr-11 border-[1px] border-bottom-gray-500 z-10">
       <div className="text-xl font-bold">Welcome Rahul!</div>
       <div className="flex items-center space-x-4">
         <div className="flex items-center p-[0.6px] bg-gradient-to-r from-[#FC8026] to-[#014EE6] rounded-full ">
